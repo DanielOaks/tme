@@ -62,9 +62,17 @@
 
     box(
       height: 1.1cm,
-      width: 1.1cm,
+      width: 1.55cm,
       stroke: luma(60%),
       radius: .43cm,
+      text(
+        luma(40%),
+        {
+          v(12pt)
+          h(6pt)
+          "d"
+        }
+      )
     ),
     text(
       size: 16pt,
@@ -162,7 +170,10 @@
   },
 
   // space for notes
-  emptyLines(5),
+  {
+    v(8pt)
+    emptyLines(5)
+  }
 )
 
 // separator
