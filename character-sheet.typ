@@ -58,7 +58,7 @@
 #let attribute(content) = {
   grid(
     columns: 2,
-    gutter: .4cm,
+    gutter: .33cm,
 
     box(
       height: 1.1cm,
@@ -177,7 +177,7 @@
 )
 
 // separator
-#v(13pt)
+#v(11pt)
 #align(
   center,
   line(
@@ -189,12 +189,12 @@
     ),
   )
 )
-#v(10pt)
+#v(7pt)
 
 // extra character snippets
 #grid(
   columns: 3,
-  gutter: .5cm,
+  gutter: .65cm,
   column-gutter: .65cm,
   extraCharacterBox(),
   extraCharacterBox(),
