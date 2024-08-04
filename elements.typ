@@ -58,7 +58,7 @@
   )
 }
 
-#let attribute(content) = {
+#let attribute(content, die: "") = {
   grid(
     columns: 2,
     gutter: .33cm,
@@ -68,13 +68,30 @@
       width: 1.55cm,
       stroke: luma(60%),
       radius: .43cm,
-      text(
-        luma(40%),
-        {
-          v(12pt)
-          h(6pt)
-          "d"
-        }
+      pad(
+        x: 7pt,
+        y: 5pt,
+        stack(
+          dir: ltr,
+          align(left + horizon)[
+            #text(
+              luma(40%),
+              {
+                v(3pt)
+                "d"
+              }
+            )
+          ],
+          align(left + horizon)[
+            #text(
+              18pt,
+              {
+                h(4pt)
+                die
+              }
+            )
+          ]
+        )
       )
     ),
     text(

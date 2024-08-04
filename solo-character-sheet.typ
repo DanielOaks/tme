@@ -30,7 +30,7 @@
       end,
       image(
         "./tme - light bg.svg",
-        width: 50%,
+        width: 45%,
       )
     )
     v(-10pt)
@@ -49,19 +49,19 @@
 
 // main content
 #grid(
-  columns: (3.5cm, 4.5cm, auto),
+  columns: (4.2cm, 4cm, auto),
   gutter: .75cm,
 
   // attributes
   {
-    attribute("Bam")
+    attribute("Strength")
     attribute("Speed")
     attribute("Style")
   },
   {
     attribute("Smarts")
     attribute("Guts")
-    attribute("Magic / Friendship")
+    attribute("Magic", die: "6")
   },
 
   // space for notes
