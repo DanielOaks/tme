@@ -37,8 +37,12 @@
 }
 
 #let titleEntry(content) = {
-  content + ":"
-  v(-6pt)
+  v(2pt)
+  text(
+    size: 11pt,
+    content + ":"
+  )
+  v(-7pt)
   line(
     length: 100%,
     stroke: luma(20%),
@@ -86,7 +90,7 @@
             #text(
               18pt,
               {
-                h(4pt)
+                h(4.5pt)
                 die
               }
             )
@@ -95,7 +99,7 @@
       )
     ),
     text(
-      size: 16pt,
+      size: 14pt,
       align(start + horizon, content)
     )
   )

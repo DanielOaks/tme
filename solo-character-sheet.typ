@@ -37,19 +37,20 @@
 
     titleEntry("Name")
     grid(
-      columns: 2,
+      columns: (1.5fr, 2fr),
       gutter: .7cm,
 
       titleEntry("Family"),
-      titleEntry("Magic"),
+      titleEntry("Magic Affinity"),
+      titleEntry("Vibe"),
+      titleEntry("Magic Focus"),
     )
-    titleEntry("Vibe")
   },
 )
 
 // main content
 #grid(
-  columns: (4.2cm, 4cm, auto),
+  columns: (4cm, 3.8cm, auto),
   gutter: .75cm,
 
   // attributes
