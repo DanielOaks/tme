@@ -29,7 +29,7 @@
     align(
       end,
       image(
-        "./tme - light bg.svg",
+        "./tme_v2_-_light_bg.svg",
         width: 45%,
       )
     )

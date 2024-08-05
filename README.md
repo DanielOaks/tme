@@ -1,4 +1,4 @@
-# Talking Magic Equines
+![Talking Magic Equines logo](tme_v2_-_dark_bg.svg)
 
 TME is a tabletop roleplaying game, currently in development.
 
