@@ -1,6 +1,6 @@
 #import "elements.typ": sheet, extraCharacterBox
 
-#let title = "Talking Magic Equines 1e Solo Extras Sheet"
+#let title = "Talking Magic Equines 1e Extras Sheet"
 
 #sheet(
   title: title,
@@ -10,11 +10,11 @@
 #align(
   end,
   image(
-    "./tme - light bg.svg",
-    height: 1.2cm,
+    "./tme_v2_-_light_bg.svg",
+    height: .9cm,
   )
 )
-#v(-10pt)
+#v(3pt)
 
 // character snippets
 #grid(
